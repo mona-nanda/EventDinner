@@ -173,6 +173,37 @@ namespace NerdDinner.Controllers
         {
             return _context.BookDinner.Any(e => e.DinnerId == id);
         }
+        //
+        // GET: Movies/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            ViewData["session"] = HttpContext.Session.GetString("userId");
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var dinner = await _context.BookDinner
+                .FirstOrDefaultAsync(m => m.DinnerId == id);
+            if (dinner == null)
+            {
+                return NotFound();
+            }
+
+            return View(dinner);
+        }
+        //
+        // POST: Movies/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            ViewData["session"] = HttpContext.Session.GetString("userId");
+            var dinner = await _context.BookDinner.FindAsync(id);
+            _context.BookDinner.Remove(dinner);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Logged));
+        }
 
         // POST: Dinner/Rsvp/4
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 

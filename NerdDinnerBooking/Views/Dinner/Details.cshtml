@@ -60,10 +60,11 @@
     <br>
     @if (@flag != 0)
     {
-        <div>
+<div>
 
-            <a asp-action="Edit" asp-route-id=@Model.DinnerId class="navbar-brand"> Edit this event</a>
-        </div>
+    <a asp-action="Edit" asp-route-id=@Model.DinnerId class="navbar-brand"> Edit this event</a>
+    <a asp-action="Delete" asp-route-id=@Model.DinnerId class="navbar-brand"> Delete this event</a>
+</div>
     }
     <div>
         <a asp-action="Logged" class="navbar-brand">Back to List</a>

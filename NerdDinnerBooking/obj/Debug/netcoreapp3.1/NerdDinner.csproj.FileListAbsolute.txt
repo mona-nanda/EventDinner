@@ -168,3 +168,4 @@
 /Users/mona.nandwani/Documents/NerdDinnerBooking/NerdDinnerBooking/obj/Debug/netcoreapp3.1/Razor/Views/Dinner/Logged.cshtml.g.cs
 /Users/mona.nandwani/Documents/NerdDinnerBooking/NerdDinnerBooking/obj/Debug/netcoreapp3.1/Razor/Views/Dinner/RsvpDone.cshtml.g.cs
 /Users/mona.nandwani/Documents/NerdDinnerBooking/NerdDinnerBooking/bin/Debug/netcoreapp3.1/GoogleMaps.LocationServices.dll
+/Users/mona.nandwani/Documents/NerdDinnerBooking/NerdDinnerBooking/obj/Debug/netcoreapp3.1/Razor/Views/Dinner/Delete.cshtml.g.cs

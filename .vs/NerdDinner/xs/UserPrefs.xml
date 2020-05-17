@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{B92392C7-0AE7-4ADD-A1D9-7E868E075F77}|Default">
   <MonoDevelop.Ide.ItemProperties.NerdDinner PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NerdDinnerBooking/Views/Dinner/Logged.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NerdDinnerBooking/Views/Dinner/Edit.cshtml">
     <Files>
-      <File FileName="NerdDinnerBooking/Views/Dinner/Index.cshtml" Line="31" Column="106" />
-      <File FileName="NerdDinnerBooking/Controllers/DinnerController.cs" Line="43" Column="41" />
-      <File FileName="NerdDinnerBooking/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="NerdDinnerBooking/Views/Dinner/Logged.cshtml" Line="30" Column="48" />
+      <File FileName="NerdDinnerBooking/Controllers/DinnerController.cs" Line="162" Column="36" />
+      <File FileName="NerdDinnerBooking/Views/Dinner/Logged.cshtml" Line="9" Column="75" />
+      <File FileName="NerdDinnerBooking/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="NerdDinnerBooking/Views/Dinner/Delete.cshtml" Line="7" Column="70" />
+      <File FileName="NerdDinnerBooking/Views/Dinner/Create.cshtml" Line="1" Column="1" />
+      <File FileName="NerdDinnerBooking/Views/Dinner/Details.cshtml" Line="66" Column="26" />
+      <File FileName="NerdDinnerBooking/Views/Dinner/Edit.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +21,7 @@
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
                 <Node name="Dinner" expanded="True">
-                  <Node name="Logged.cshtml" selected="True" />
+                  <Node name="Edit.cshtml" selected="True" />
                 </Node>
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
